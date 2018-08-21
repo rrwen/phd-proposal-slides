@@ -10,7 +10,7 @@ Research proposal titled "Context-aware Geographic Information Systems for Real-
 
 [![Build Status](https://travis-ci.org/rrwen/phd-proposal-slides.svg?branch=master)](https://travis-ci.org/rrwen/phd-proposal-slides)
 [![GitHub license](https://img.shields.io/github/license/rrwen/phd-proposal-slides.svg)](https://github.com/rrwen/phd-proposal-slides/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/rrwen/phd-proposal-slides.svg?style=social)](https://twitter.com/intent/tweet?text=PhD%20research%20proposal%20slides%20titled%20"Context-aware%20Geographic%20Information%20Systems%20for%20Real-time%20Security%20Event%20Forecasting"%20for%20oral%20exam:%20https%3A%2F%2Fgithub.com%2Frrwen%2Fphd-proposal-slides%20%23revealjs%20%23slides)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/rrwen/phd-proposal-slides.svg?style=social)](https://twitter.com/intent/tweet?text=PhD%20research%20proposal%20titled%20%27Context-aware%20Geographic%20Information%20Systems%20for%20Real-time%20Security%20Event%20Forecasting%27%20by%20%40rrw3n:%20https%3A%2F%2Fgithub.com%2Frrwen%2Fphd-proposal-slides%20%23revealjs%20%23slides)
 
 ## Install
 
