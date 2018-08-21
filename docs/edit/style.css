@@ -2,20 +2,20 @@
 /** Reveal **/
 
 .reveal h1 {
-  font-size: 42pt;
+  font-size: 30pt;
   padding: 0.5%;
 }
 
 .reveal  h2 {
-  font-size: 32pt;
+  font-size: 26pt;
 }
 
 .reveal small {
-  font-size: 24pt;
+  font-size: 22pt;
 }
 
 .reveal p {
-  font-size: 32pt;
+  font-size: 24pt;
   line-height: 50%;
   padding: 0!important;
 }

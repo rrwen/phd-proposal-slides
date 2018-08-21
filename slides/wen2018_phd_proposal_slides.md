@@ -10,12 +10,12 @@ revealOptions:
 # Context-aware Geographic Information Systems for Real-time Security Event Forecasting
 
 <small>Richard Wen</small>  
-<small>rrwen.dev@gmail.com</small>  
+<small>rwen@ryerson.ca</small>  
 <small>Department of Civil Engineering</small>  
   
 <small>August 21, 2018</small>
   
-<small>*PhD research proposal slides for oral exam*</small>  
+<small>*Research proposal for the degree of<br>Doctor of Philosophy in Civil Engineering*</small>  
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "name": "phd-proposal-slides",
   "version": "0.0.0",
-  "description": "PhD research proposal slides titled "Context-aware Geographic Information Systems for Real-time Security Event Forecasting" for oral exam",
+  "description": "Research proposal titled \"Context-aware Geographic Information Systems for Real-time Security Event Forecasting\" for the degree of Doctor of Philosophy in Civil Engineering at Ryerson University in 2018",
   "main": "",
   "scripts": {
     "html": "node ./node_modules/reveal-md/bin/cli.js slides/wen2018_phd_proposal_slides.md --static docs --reveal-template slides/template.html",
