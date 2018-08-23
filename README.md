@@ -6,7 +6,7 @@ rrwen.dev@gmail.com
 * [Slides](https://rrwen.github.io/phd-proposal-slides)
 * [PDF](https://github.com/rrwen/phd-proposal-slides/blob/master/slides/wen2018_phd_proposal_slides.pdf)
 
-Research proposal titled "Context-aware Geographic Information Systems for Real-time Security Event Forecasting" for the degree of Doctor of Philosophy in Civil Engineering at Ryerson University in 2018.
+Research proposal titled "Context-aware Geographic Information Systems for Real-time Security Event Forecasting" to fulfil a requirement for the degree of Doctor of Philosophy in Civil Engineering at Ryerson University in 2018.
 
 [![Build Status](https://travis-ci.org/rrwen/phd-proposal-slides.svg?branch=master)](https://travis-ci.org/rrwen/phd-proposal-slides)
 [![GitHub license](https://img.shields.io/github/license/rrwen/phd-proposal-slides.svg)](https://github.com/rrwen/phd-proposal-slides/blob/master/LICENSE)

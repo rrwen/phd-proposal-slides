@@ -1,11 +1,11 @@
 {
   "name": "phd-proposal-slides",
   "version": "0.0.0",
-  "description": "Research proposal titled \"Context-aware Geographic Information Systems for Real-time Security Event Forecasting\" for the degree of Doctor of Philosophy in Civil Engineering at Ryerson University in 2018",
+  "description": "Research proposal titled \"Context-aware Geographic Information Systems for Real-time Security Event Forecasting\" to fulfil a requirement for the degree of Doctor of Philosophy in Civil Engineering at Ryerson University in 2018",
   "main": "",
   "scripts": {
     "html": "node ./node_modules/reveal-md/bin/cli.js slides/wen2018_phd_proposal_slides.md --static docs --reveal-template slides/template.html",
-    "pdf": "node ./node_modules/decktape/decktape.js reveal docs/index.html slides/wen2018_phd_proposal_slides.pdf"
+    "pdf": "node ./node_modules/decktape/decktape.js -s 1920x1080 -p 2000 reveal docs/index.html slides/wen2018_phd_proposal_slides.pdf"
   },
   "directories": {
     "test": "tests"

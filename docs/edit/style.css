@@ -1,4 +1,3 @@
-
 /** Reveal **/
 
 .reveal h1 {
@@ -16,7 +15,6 @@
 
 .reveal p {
   font-size: 24pt;
-  line-height: 50%;
   padding: 0!important;
 }
 
@@ -79,4 +77,11 @@
 .background-text {
   color: white;
   text-shadow: 0 1px 0 black;
+}
+
+.reference {
+  color: gray;
+  top: 100%;
+  left: 5%;
+  position: absolute;
 }
