@@ -49,8 +49,8 @@ $.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
 	
 	// (heat_create) Create heatmap as layer
 	var heat = L.heatLayer(heatData, {
-		radius: 7,
-		blur: 4
+		radius: 10,
+		blur: 20
 	}).addTo(map);
 });
 
