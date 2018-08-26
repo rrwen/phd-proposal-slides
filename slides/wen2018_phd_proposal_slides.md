@@ -43,10 +43,15 @@ revealOptions:
 
 ---
 
-## Frequent, Non-random, Situational
+### Frequent
 
-<!-- .slide: data-background="black" data-background-transition="none" -->
-<img data-src="./edit/gifs/ksi_map.gif" width="100%" height="500px"></img>
+<!-- .slide: data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_cluster.html" -->
+
+---
+
+### Non-random
+
+<!-- .slide: data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_heat.html" -->
 
 ---
 
@@ -155,7 +160,7 @@ revealOptions:
 
 ## Context-aware GIS Integration
 
-<img data-src="./edit/svg/figure_cagis.svg" width="100%"></img>
+<img data-src="./edit/img/figure_cagis.svg" width="100%"></img>
 
 ---
 
@@ -189,13 +194,13 @@ revealOptions:
 
 ## Software Components
 
-<img data-src="./edit/svg/figure_software_framework.svg" width="100%"></img>
+<img data-src="./edit/img/figure_software_framework.svg" width="100%"></img>
 
 ---
 
 ## Base Component
 
-<img data-src="./edit/svg/figure_base_component.svg" width="100%"></img>
+<img data-src="./edit/img/figure_base_component.svg" width="100%"></img>
 
 ---
 

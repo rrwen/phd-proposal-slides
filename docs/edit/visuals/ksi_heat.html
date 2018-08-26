@@ -1,0 +1,58 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<title>KSI HeatMap</title>
+
+<div id="visual"></div>
+<link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css">
+<link rel="stylesheet" href="./visuals.css">
+
+<style>
+.leaflet-div-icon {
+    stroke-color:  yellow;
+    text-align:  center;
+}
+</style>
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/leaflet/dist/leaflet.js"></script>
+<script src="./node_modules/leaflet.heat/dist/leaflet-heat.js"></script>
+
+<script>
+
+$.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
+
+	// (map) Create leaflet map
+	var map = L.map('visual', {
+		zoomControl: false
+	});
+	map.setView([43.71, -79.35], 12);
+
+	// (map_base) Tile base map
+	L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_nolabels/{z}/{x}/{y}{r}.png', {
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://carto.com/attributions">Carto</a>',
+		subdomains: 'abcd',
+		minZoom: 9,
+		maxZoom: 15
+	}).addTo(map);
+	
+	// (heat_data) Collect lon lats from features
+	var features = data.features;
+	var heatData = [];
+	var f, lon, lat, latlon, m;
+	for (var i in features) {
+		f = features[i];
+		lon = f.geometry.coordinates[0];
+		lat = f.geometry.coordinates[1];
+		heatData.push([lat, lon]);
+	}
+	
+	// (heat_create) Create heatmap as layer
+	var heat = L.heatLayer(heatData, {
+		radius: 7,
+		blur: 4
+	}).addTo(map);
+});
+
+
+</script>

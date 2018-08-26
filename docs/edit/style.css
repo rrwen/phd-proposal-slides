@@ -9,6 +9,11 @@
   font-size: 26pt;
 }
 
+.reveal  h3 {
+  font-size: 26pt;
+  background-color: rgba(0, 0, 0, 0.70);
+}
+
 .reveal small {
   font-size: 22pt;
 }
@@ -77,11 +82,4 @@
 .background-text {
   color: white;
   text-shadow: 0 1px 0 black;
-}
-
-.reference {
-  color: gray;
-  top: 100%;
-  left: 5%;
-  position: absolute;
 }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="432px" height="144px" viewBox="0 0 432 144" enable-background="new 0 0 432 144" xml:space="preserve">
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	35.28,104.4 98.64,104.4 98.61,104.4 98.73,104.39 98.84,104.37 98.95,104.33 99.05,104.27 99.14,104.2 99.22,104.11 99.28,104.01 
+	99.32,103.91 99.35,103.8 99.36,103.68 99.36,40.32 99.35,40.2 99.32,40.09 99.28,39.99 99.22,39.89 99.14,39.8 99.05,39.73 
+	98.95,39.67 98.84,39.63 98.73,39.61 98.64,39.6 35.28,39.6 35.37,39.61 35.25,39.6 35.14,39.61 35.02,39.65 34.92,39.7 
+	34.82,39.76 34.74,39.84 34.67,39.94 34.62,40.04 34.58,40.15 34.56,40.26 34.56,40.32 34.56,103.68 34.56,103.62 34.56,103.74 
+	34.58,103.85 34.62,103.96 34.67,104.06 34.74,104.16 34.82,104.24 34.92,104.3 35.02,104.35 35.14,104.39 35.25,104.4 35.28,104.4 
+	"/>
+<text transform="matrix(1 0 0 1 57.52 75.3096)" font-family="'TimesNewRomanPSMT'" font-size="10">Data</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	134.64,104.4 198,104.4 197.97,104.4 198.09,104.39 198.2,104.37 198.31,104.33 198.41,104.27 198.5,104.2 198.58,104.11 
+	198.64,104.01 198.68,103.91 198.71,103.8 198.72,103.68 198.72,40.32 198.71,40.2 198.68,40.09 198.64,39.99 198.58,39.89 
+	198.5,39.8 198.41,39.73 198.31,39.67 198.2,39.63 198.09,39.61 198,39.6 134.64,39.6 134.73,39.61 134.61,39.6 134.5,39.61 
+	134.38,39.65 134.28,39.7 134.18,39.76 134.1,39.84 134.03,39.94 133.98,40.04 133.94,40.15 133.92,40.26 133.92,40.32 
+	133.92,103.68 133.92,103.62 133.92,103.74 133.94,103.85 133.98,103.96 134.03,104.06 134.1,104.16 134.18,104.24 134.28,104.3 
+	134.38,104.35 134.5,104.39 134.61,104.4 134.64,104.4 "/>
+<text transform="matrix(1 0 0 1 153.2598 75.3096)" font-family="'TimesNewRomanPSMT'" font-size="10">Model</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	234,104.4 297.36,104.4 297.33,104.4 297.45,104.39 297.56,104.37 297.67,104.33 297.77,104.27 297.86,104.2 297.94,104.11 
+	298,104.01 298.04,103.91 298.07,103.8 298.08,103.68 298.08,40.32 298.07,40.2 298.04,40.09 298,39.99 297.94,39.89 297.86,39.8 
+	297.77,39.73 297.67,39.67 297.56,39.63 297.45,39.61 297.36,39.6 234,39.6 234.09,39.61 233.97,39.6 233.86,39.61 233.74,39.65 
+	233.64,39.7 233.54,39.76 233.46,39.84 233.39,39.94 233.34,40.04 233.3,40.15 233.28,40.26 233.28,40.32 233.28,103.68 
+	233.28,103.62 233.28,103.74 233.3,103.85 233.34,103.96 233.39,104.06 233.46,104.16 233.54,104.24 233.64,104.3 233.74,104.35 
+	233.86,104.39 233.97,104.4 234,104.4 "/>
+<text transform="matrix(1 0 0 1 252.3496 75.3096)" font-family="'TimesNewRomanPSMT'" font-size="10">Metric</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	333.36,104.4 396.72,104.4 396.69,104.4 396.81,104.39 396.92,104.37 397.03,104.33 397.13,104.27 397.22,104.2 397.3,104.11 
+	397.36,104.01 397.4,103.91 397.43,103.8 397.44,103.68 397.44,40.32 397.43,40.2 397.4,40.09 397.36,39.99 397.3,39.89 
+	397.22,39.8 397.13,39.73 397.03,39.67 396.92,39.63 396.81,39.61 396.72,39.6 333.36,39.6 333.45,39.61 333.33,39.6 333.22,39.61 
+	333.1,39.65 333,39.7 332.9,39.76 332.82,39.84 332.75,39.94 332.7,40.04 332.66,40.15 332.64,40.26 332.64,40.32 332.64,103.68 
+	332.64,103.62 332.64,103.74 332.66,103.85 332.7,103.96 332.75,104.06 332.82,104.16 332.9,104.24 333,104.3 333.1,104.35 
+	333.22,104.39 333.33,104.4 333.36,104.4 "/>
+<text transform="matrix(1 0 0 1 347.3203 75.3096)"><tspan x="0" y="0" font-family="'TimesNewRomanPSMT'" font-size="10">Inter</tspan><tspan x="18.877" y="0" font-family="'TimesNewRomanPSMT'" font-size="10">f</tspan><tspan x="22.107" y="0" font-family="'TimesNewRomanPSMT'" font-size="10">ace</tspan></text>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="99.36" y1="72" x2="133.92" y2="72"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	130.18,74.16 133.92,72 130.18,69.84 "/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="198.72" y1="72" x2="233.28" y2="72"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	229.54,74.16 233.28,72 229.54,69.84 "/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="298.08" y1="72" x2="332.64" y2="72"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	328.9,74.16 332.64,72 328.9,69.84 "/>
+</svg>
