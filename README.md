@@ -30,10 +30,12 @@ See [Edits](#edits) and [Implementation](#implementation) for more details.
 
 1. Generate `docs/index.html` (see `script.html` in [package.json](https://github.com/rrwen/phd-proposal-slides/blob/master/package.json))
 2. Generate `slides/wen2018_phd_proposal_slides.pdf` (see `script.pdf` in [package.json](https://github.com/rrwen/phd-proposal-slides/blob/master/package.json))
+3. Open `docs/index.html` in a portable browser (see `script.browser` in [package.json](https://github.com/rrwen/phd-proposal-slides/blob/master/package.json))
 
 ```
 npm run html
 npm run pdf
+npm run browser
 ```
 
 ## Developer Notes
