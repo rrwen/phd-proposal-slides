@@ -62,10 +62,10 @@ revealOptions:
 
 ## Security Events
 
-<!-- data-transition="slide" -->
+<!-- .slide: data-background="black" data-background-transition="none" data-background-image="./edit/img/security_event.png" -->
 
-* Disrupt societal operation and daily life
-* Reduced quality of life
+* Disrupt society and daily life
+* Reduce quality of life
 * Economic burden and loss of life
 
 ---

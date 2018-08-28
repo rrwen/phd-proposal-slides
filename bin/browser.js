@@ -15,4 +15,5 @@ execFile(chromium.path, [
 	if (err) {
 		console.error(err);
 	}
+	console.log("Browser closed...");
 });
