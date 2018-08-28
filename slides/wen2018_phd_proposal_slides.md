@@ -38,31 +38,31 @@ revealOptions:
 ## Over 40 Million Deaths Per Year
 
 <!-- .slide: data-background="black" -->
-<iframe data-src="edit/visuals/global_deaths.html" width="100%" height="500px"></iframe>
+<iframe data-src="./edit/visuals/global_deaths.html" width="100%" height="500px"></iframe>
 
 ---
 
 ### Frequent
 
-<!-- .slide: data-state="frequent" data-background="black" data-background-transition="none" data-background-iframe-id="visual" data-background-iframe="edit/visuals/ksi_cluster.html"  -->
+<!-- .slide: data-state="frequent" data-background="black" data-background-transition="none" data-background-iframe-id="visual" data-background-iframe="./edit/visuals/ksi_cluster.html"  -->
 
 ---
 
 ### Non-random
 
-<!-- .slide: data-state="non-random" data-background="black" data-background-transition="none" data-background-iframe="edit/visuals/ksi_heat.html" -->
+<!-- .slide: data-state="non-random" data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_heat.html" -->
 
 ---
 
 ### Situational
 
-<!-- .slide: data-state="situational" data-background="black" data-background-transition="none" data-background-iframe="edit/visuals/ksi_bar.html" -->
+<!-- .slide: data-state="situational" data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_bar.html" -->
 
 ---
 
 ## Security Events
 
-<!-- .slide: data-background="black" data-background-transition="none" data-background-image="edit/img/security_event.png" -->
+<!-- .slide: data-background="black" data-background-transition="none" data-background-image="./edit/img/security_event.png" -->
 
 * Disrupt society and daily life
 * Reduce quality of life
@@ -167,7 +167,7 @@ revealOptions:
 
 ## Context-aware GIS Integration
 
-<img data-src="edit/img/figure_cagis.svg" width="100%"></img>
+<img data-src="./edit/img/figure_cagis.svg" width="100%"></img>
 
 ---
 
@@ -201,13 +201,13 @@ revealOptions:
 
 ## Software Components
 
-<img data-src="edit/img/figure_software_framework.svg" width="100%"></img>
+<img data-src="./edit/img/figure_software_framework.svg" width="100%"></img>
 
 ---
 
 ## Base Component
 
-<img data-src="edit/img/figure_base_component.svg" width="100%"></img>
+<img data-src="./edit/img/figure_base_component.svg" width="100%"></img>
 
 ---
 
@@ -298,7 +298,7 @@ Given `a a b c c d`:
 
 ## Prototype Dashboard
 
-<img data-src="edit/img/figure_dashboard.png" width="100%"></img>
+<img data-src="./edit/img/figure_dashboard.png" width="100%"></img>
 
 ---
 
