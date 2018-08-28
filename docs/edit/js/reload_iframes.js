@@ -9,7 +9,8 @@ window.onload = function() {
 		{section: "frequent", src: "./edit/visuals/ksi_cluster.html", type: "iframe"},
 		{section: "non-random", src: "./edit/visuals/ksi_heat.html", type: "iframe"},
 		{section: "situational", src: "./edit/visuals/ksi_bar.html", type: "iframe"},
-		{section: "context-data", src: "./edit/visuals/context_data.html", type: "iframe"}
+		{section: "context-data", src: "./edit/visuals/context_data.html", type: "iframe"},
+		{section: "summary", src: "./edit/visuals/summary.html", type: "iframe"},
 	];
 	
 	// (reload) Reload function

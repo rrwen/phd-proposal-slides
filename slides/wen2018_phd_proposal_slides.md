@@ -295,6 +295,10 @@ Given `a a b c c d`:
 
 ---
 
+<!-- .slide: data-background-iframe="./edit/visuals/dashboard-example/index-dev.html" -->
+
+---
+
 ## Potential Experiments
 
 1. Traffic Collision Forecasting
@@ -331,9 +335,7 @@ Given `a a b c c d`:
 
 ---
 
-## Prototype Dashboard
-
-<img data-src="./edit/img/figure_dashboard.png" width="100%"></img>
+<!-- .slide: data-background="black" data-background-transition="none" data-background-iframe="http://geocolab.ryerson.ca/geosocial/" -->
 
 ---
 
@@ -342,6 +344,10 @@ Given `a a b c c d`:
 * Context-aware GIS framework and architecture
 * Experiments of context-aware GIS
 * Methods for forecasting and monitoring security events
+
+---
+
+<!-- .slide: data-state="summary" data-background-iframe="./edit/visuals/summary.html" -->
 
 ---
 
