@@ -6,9 +6,9 @@ window.onload = function() {
 	
 	// (maps) Leaflet maps to reload
 	var iframes = [
-		{section: "frequent", src: "./edit/visuals/ksi_cluster.html", type: "iframe"},
-		{section: "non-random", src: "./edit/visuals/ksi_heat.html", type: "iframe"},
-		{section: "situational", src: "./edit/visuals/ksi_bar.html", type: "iframe"}
+		{section: "frequent", src: "edit/visuals/ksi_cluster.html", type: "iframe"},
+		{section: "non-random", src: "edit/visuals/ksi_heat.html", type: "iframe"},
+		{section: "situational", src: "edit/visuals/ksi_bar.html", type: "iframe"}
 	];
 	
 	// (reload) Reload function
