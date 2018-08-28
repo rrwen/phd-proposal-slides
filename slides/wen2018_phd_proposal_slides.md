@@ -224,13 +224,25 @@ revealOptions:
 
 ## Software Components
 
-<img data-src="./edit/img/figure_software_framework.svg" width="100%"></img>
+<img data-src="./edit/img/figure_software_framework.svg"></img>
 
 ---
 
 ## Base Component
 
-<img data-src="./edit/img/figure_base_component.svg" width="100%"></img>
+<img data-src="./edit/img/figure_base_component.svg"></img>
+
+---
+
+## Component Interaction
+
+<img data-src="./edit/img/swframework_interaction.svg"></img>
+
+---
+
+## Component Extension
+
+<img data-src="./edit/img/swframework_extension.svg"></img>
 
 ---
 
