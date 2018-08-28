@@ -31,7 +31,7 @@ revealOptions:
 
 ---
 
-# Introduction
+# 1. Introduction
 
 ---
 
@@ -39,6 +39,16 @@ revealOptions:
 
 <!-- .slide: data-background="black" -->
 <iframe data-src="./edit/visuals/global_deaths.html" width="100%" height="500px"></iframe>
+
+---
+
+## Security Events
+
+<!-- .slide: data-background="black" data-background-transition="none" data-background-image="./edit/img/security_event.png" -->
+
+* Disrupt society and daily life
+* Economic burden
+* Loss of life
 
 ---
 
@@ -60,21 +70,19 @@ revealOptions:
 
 ---
 
-## Security Events
-
-<!-- .slide: data-background="black" data-background-transition="none" data-background-image="./edit/img/security_event.png" -->
-
-* Disrupt society and daily life
-* Reduce quality of life
-* Economic burden and loss of life
+## Forecasting Security Events
 
 ---
 
-## Forecasting Security Events
+## Context
 
-1. **Data**: news, social media, government
-2. **Context**: situation surrounding event
-3. **Certainty**: probability, details
+* Situation surrounding event
+* What event and when will it occur?
+* How probable is the event given the context?
+
+---
+
+<!-- .slide: data-state="context-data" data-background-iframe="./edit/visuals/context_data.html" -->
 
 ---
 
@@ -82,15 +90,15 @@ revealOptions:
 
 * Set of hardware and software
 * Store, manage, and present spatial data
-* Enable information extracted from data
+* Information extraction from data
 
 ---
 
 ## Context-aware GIS
 
 * Enable GIS to use contextual data
-* Adapt to context
-* Act based on context
+* Adapt and react to context
+* Improve security event forecasts
 
 ---
 
@@ -116,6 +124,7 @@ revealOptions:
 1. **Relevant**: involves security event forecasting
 2. **Practical**: uses non-artificial data
 3. **Measurable**: uses qualitative or quantitative forecasting model assessments
+4. **Reproducible**: results can be produced again given the same data
 
 ---
 
@@ -128,15 +137,29 @@ revealOptions:
 
 ---
 
-# Background
+# 2. Background
 
 ---
 
 ## Web GIS and Architectures
 
-* Client server
-* Service-oriented
-* Cloud-based
+---
+
+## Client Server
+
+<img data-src="./edit/img/client_server.svg"></img>
+
+---
+
+## Service-oriented
+
+<img data-src="./edit/img/service_oriented.svg"></img>
+
+---
+
+## Cloud-based
+
+<img data-src="./edit/img/cloud_based.svg"></img>
 
 ---
 
@@ -165,12 +188,6 @@ revealOptions:
 
 ---
 
-## Context-aware GIS Integration
-
-<img data-src="./edit/img/figure_cagis.svg" width="100%"></img>
-
----
-
 ## Problem Statement
 
 * **Real-time GIS**: large continuous spatial data
@@ -179,7 +196,13 @@ revealOptions:
 
 ---
 
-# Methods
+## Context-aware GIS Integration
+
+<img data-src="./edit/img/figure_cagis.svg" width="100%"></img>
+
+---
+
+# 3. Methods
 
 ---
 
@@ -284,7 +307,7 @@ Given `a a b c c d`:
 
 ---
 
-# Preliminary Results
+# 4. Preliminary Results
 
 ---
 
@@ -302,7 +325,7 @@ Given `a a b c c d`:
 
 ---
 
-# Conclusion
+# 5. Conclusion
 
 * Context-aware GIS framework and architecture
 * Experiments of context-aware GIS
@@ -310,16 +333,13 @@ Given `a a b c c d`:
 
 ---
 
-# References
-
-<small>
-* World Health Organization. (2015). Global status report on road safety 2015: Monitoring health for the sustainable. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/road_safety_status/2015/en/
-* World Health Organization. (2018). World health statistics 2018: Monitoring health for the sdgs. Retrieved June 26, 2018, from http://www.who.int/gho/publications/world_health_statistics/2018/en/
-</small>
+# 6. References
 
 ---
 
 <small>
-* World Health Organization, United Nations Office on Drugs and Crime, & United Nations Development Programme. (2014). Global status report on violence prevention 2014. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/publications/violence/en/
 * Dey, A. K. (2001). Understanding and using context. Personal and ubiquitous computing, 5(1), 4–7.
+* World Health Organization. (2015). Global status report on road safety 2015: Monitoring health for the sustainable. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/road_safety_status/2015/en/
+* World Health Organization. (2018). World health statistics 2018: Monitoring health for the sdgs. Retrieved June 26, 2018, from http://www.who.int/gho/publications/world_health_statistics/2018/en/
+* World Health Organization, United Nations Office on Drugs and Crime, & United Nations Development Programme. (2014). Global status report on violence prevention 2014. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/publications/violence/en/
 </small>

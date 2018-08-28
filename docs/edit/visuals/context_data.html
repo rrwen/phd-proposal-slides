@@ -1,0 +1,58 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<title>Security Event Forecast Data</title>
+
+<div id="visual"></div>
+
+<link rel="stylesheet" href="./css/visuals.css">
+
+<style>
+#visual {
+	padding-top: 3%;
+}
+</style>
+
+<script src="./js/d3.min.js"></script>
+<script src="./js/d3plus.full.min.js"></script>
+<script src="./js/helpers.js"></script>
+
+<script>
+
+	// (data) Bubble data
+	var data = [
+		{"name": "Facebook", "group": "Social Media"},
+		{"name": "Twitter", "group": "Social Media"},
+		{"name": "Reddit", "group": "Social Media"},
+		{"name": "Traffic Collisions", "group": "Government"},
+		{"name": "Crime Events", "group": "Government"},
+		{"name": "City Infrastructure", "group": "Government"},
+		{"name": "CBC", "group": "News API"},
+		{"name": "Toronto Star", "group": "News API"},
+		{"name": "Global News", "group": "News API"}
+	];
+
+	// (visualize) Visualize bubbles
+	var visualization = d3plus.viz()
+		.container("#visual")
+		.data(data)
+		.title({
+			font: {
+				size: "40%",
+				weight: "bold"
+			},
+			value: "CONTEXTUAL DATA"
+		})
+		.format({
+			text: function(text) {
+				return text;
+			}
+		})
+		.legend(false)
+		.type("bubbles")
+		.id(["group", "name"])
+		.depth(1)
+		.color("group")
+		.draw();
+
+</script>

@@ -35,12 +35,20 @@
 5. Conclusion
 6. References
 </script></section><section  data-markdown><script type="text/template">
-# Introduction
+# 1. Introduction
 </script></section><section  data-markdown><script type="text/template">
 ## Over 40 Million Deaths Per Year
 
 <!-- .slide: data-background="black" -->
 <iframe data-src="./edit/visuals/global_deaths.html" width="100%" height="500px"></iframe>
+</script></section><section  data-markdown><script type="text/template">
+## Security Events
+
+<!-- .slide: data-background="black" data-background-transition="none" data-background-image="./edit/img/security_event.png" -->
+
+* Disrupt society and daily life
+* Economic burden
+* Loss of life
 </script></section><section  data-markdown><script type="text/template">
 ### Frequent
 
@@ -54,31 +62,27 @@
 
 <!-- .slide: data-state="situational" data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_bar.html" -->
 </script></section><section  data-markdown><script type="text/template">
-## Security Events
-
-<!-- .slide: data-background="black" data-background-transition="none" data-background-image="./edit/img/security_event.png" -->
-
-* Disrupt society and daily life
-* Reduce quality of life
-* Economic burden and loss of life
-</script></section><section  data-markdown><script type="text/template">
 ## Forecasting Security Events
+</script></section><section  data-markdown><script type="text/template">
+## Context
 
-1. **Data**: news, social media, government
-2. **Context**: situation surrounding event
-3. **Certainty**: probability, details
+* Situation surrounding event
+* What event and when will it occur?
+* How probable is the event given the context?
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-state="context-data" data-background-iframe="./edit/visuals/context_data.html" -->
 </script></section><section  data-markdown><script type="text/template">
 ## Geographic Information Systems (GIS)
 
 * Set of hardware and software
 * Store, manage, and present spatial data
-* Enable information extracted from data
+* Information extraction from data
 </script></section><section  data-markdown><script type="text/template">
 ## Context-aware GIS
 
 * Enable GIS to use contextual data
-* Adapt to context
-* Act based on context
+* Adapt and react to context
+* Improve security event forecasts
 </script></section><section  data-markdown><script type="text/template">
 ## Research Objectives
 
@@ -98,6 +102,7 @@
 1. **Relevant**: involves security event forecasting
 2. **Practical**: uses non-artificial data
 3. **Measurable**: uses qualitative or quantitative forecasting model assessments
+4. **Reproducible**: results can be produced again given the same data
 </script></section><section  data-markdown><script type="text/template">
 ## Contributions
 
@@ -106,13 +111,21 @@
 3. Software architecture for context-aware GIS
 4. Methods for forecasting security events
 </script></section><section  data-markdown><script type="text/template">
-# Background
+# 2. Background
 </script></section><section  data-markdown><script type="text/template">
 ## Web GIS and Architectures
+</script></section><section  data-markdown><script type="text/template">
+## Client Server
 
-* Client server
-* Service-oriented
-* Cloud-based
+<img data-src="./edit/img/client_server.svg"></img>
+</script></section><section  data-markdown><script type="text/template">
+## Service-oriented
+
+<img data-src="./edit/img/service_oriented.svg"></img>
+</script></section><section  data-markdown><script type="text/template">
+## Cloud-based
+
+<img data-src="./edit/img/cloud_based.svg"></img>
 </script></section><section  data-markdown><script type="text/template">
 ## Context-aware Systems
 
@@ -133,17 +146,17 @@
 * **Clustering**: grouping similar data
 * **Incremental Learning**: continuous model updates
 </script></section><section  data-markdown><script type="text/template">
-## Context-aware GIS Integration
-
-<img data-src="./edit/img/figure_cagis.svg" width="100%"></img>
-</script></section><section  data-markdown><script type="text/template">
 ## Problem Statement
 
 * **Real-time GIS**: large continuous spatial data
 * **Event-driven Architecture**: react to events
 * **Context-aware GIS**: react and adapt to context
 </script></section><section  data-markdown><script type="text/template">
-# Methods
+## Context-aware GIS Integration
+
+<img data-src="./edit/img/figure_cagis.svg" width="100%"></img>
+</script></section><section  data-markdown><script type="text/template">
+# 3. Methods
 </script></section><section  data-markdown><script type="text/template">
 ## Software Frameworks
 
@@ -222,7 +235,7 @@ Given `a a b c c d`:
 * Methods: NLP, supervised learning, clustering
 * Outcomes: web app and models for monitoring and forecasts
 </script></section><section  data-markdown><script type="text/template">
-# Preliminary Results
+# 4. Preliminary Results
 </script></section><section  data-markdown><script type="text/template">
 ## Software
 
@@ -234,23 +247,21 @@ Given `a a b c c d`:
 
 <img data-src="./edit/img/figure_dashboard.png" width="100%"></img>
 </script></section><section  data-markdown><script type="text/template">
-# Conclusion
+# 5. Conclusion
 
 * Context-aware GIS framework and architecture
 * Experiments of context-aware GIS
 * Methods for forecasting and monitoring security events
 </script></section><section  data-markdown><script type="text/template">
-# References
-
-<small>
-* World Health Organization. (2015). Global status report on road safety 2015: Monitoring health for the sustainable. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/road_safety_status/2015/en/
-* World Health Organization. (2018). World health statistics 2018: Monitoring health for the sdgs. Retrieved June 26, 2018, from http://www.who.int/gho/publications/world_health_statistics/2018/en/
-</small>
+# 6. References
 </script></section><section  data-markdown><script type="text/template">
 <small>
-* World Health Organization, United Nations Office on Drugs and Crime, & United Nations Development Programme. (2014). Global status report on violence prevention 2014. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/publications/violence/en/
 * Dey, A. K. (2001). Understanding and using context. Personal and ubiquitous computing, 5(1), 4–7.
-</small></script></section></div>
+* World Health Organization. (2015). Global status report on road safety 2015: Monitoring health for the sustainable. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/road_safety_status/2015/en/
+* World Health Organization. (2018). World health statistics 2018: Monitoring health for the sdgs. Retrieved June 26, 2018, from http://www.who.int/gho/publications/world_health_statistics/2018/en/
+* World Health Organization, United Nations Office on Drugs and Crime, & United Nations Development Programme. (2014). Global status report on violence prevention 2014. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/publications/violence/en/
+</small>
+</script></section></div>
         </div>
 		
 		<div id="logo-div">
