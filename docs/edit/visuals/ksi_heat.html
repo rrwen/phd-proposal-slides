@@ -4,8 +4,9 @@
 <title>KSI HeatMap</title>
 
 <div id="visual"></div>
+
 <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css">
-<link rel="stylesheet" href="./visuals.css">
+<link rel="stylesheet" href="./css/visuals.css">
 
 <style>
 .leaflet-div-icon {
@@ -15,12 +16,26 @@
 </style>
 
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+
 <script src="./node_modules/leaflet/dist/leaflet.js"></script>
 <script src="./node_modules/leaflet.heat/dist/leaflet-heat.js"></script>
+<script src="./node_modules/d3/dist/d3.min.js"></script>
+<script src="./js/helpers.js"></script>
 
 <script>
 
 $.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
+
+	// (data_features) Data for ksi
+	var features = data.features;
+	
+	// (data_text) Data for text panel
+	var textData = [
+		{x: "95%", y: "50%", text: "2007 to 2017", size: "2.25vw"},
+		{x: "95%", y: "60%", text: features.length + " Traffic Collisions", size: "2vw"},
+		{x: "95%", y: "70%", text: "Killed or Seriously Injured (KSI) Traffic Collisions (2007-2017)", color: "gray"},
+		{x: "95%", y: "75%", text: "Data Source: Toronto Police Service Public Safety Data Portal", color: "gray"}
+	];
 
 	// (map) Create leaflet map
 	var map = L.map('visual', {
@@ -37,7 +52,6 @@ $.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
 	}).addTo(map);
 	
 	// (heat_data) Collect lon lats from features
-	var features = data.features;
 	var heatData = [];
 	var f, lon, lat, latlon, m;
 	for (var i in features) {
@@ -50,9 +64,11 @@ $.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
 	// (heat_create) Create heatmap as layer
 	var heat = L.heatLayer(heatData, {
 		radius: 10,
-		blur: 20
+		blur: 15
 	}).addTo(map);
+	
+	// (text) Create text panel
+	var mapText = helpers.mapText("body", textData);
 });
-
 
 </script>

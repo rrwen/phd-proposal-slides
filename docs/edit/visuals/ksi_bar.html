@@ -1,0 +1,94 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<title>KSI Bar Chart</title>
+
+<canvas id="visual"></canvas>
+
+<link rel="stylesheet" href="./css/visuals.css">
+
+<style>
+#visual {
+	width: 90% !important;
+	height: 82% !important;
+	margin: auto;
+	padding-top: 4%;
+}
+</style>
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/chart.js/dist/Chart.min.js"></script>
+<script src="./node_modules/chartjs-plugin-style/dist/chartjs-plugin-style.min.js"></script>
+<script src="./js/helpers.js"></script>
+
+<script>
+var x;
+$.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
+
+	// (data_features) Data for ksi
+	var features = data.features;
+	
+	// (data_vars) Collect counts of unique variable values
+	var situation = {};
+	var track = ["ROAD_CLASS"]
+	var f, v, t, v;
+	for (var i in features) {
+		f = features[i];
+		for (var j in track) {
+			t = track[j];
+			v = String(features[i].properties[t]);
+			if (situation[v] == undefined) {
+				situation[v] = 0;
+			} else {
+				situation[v] += 1;
+			}
+		}
+	}
+	
+	// (data_format) Format data for chartjs
+	var labels = [];
+	var values = [];
+	for (var k in situation) {
+		labels.push(k);
+		values.push(situation[k]);
+	}
+	x=values;
+	
+	// (bar_chart) Create bar chart
+	Chart.defaults.global.defaultFontSize = 24;
+	var ctx = document.getElementById("visual").getContext('2d');
+	var bar = new Chart(ctx, {
+		type: "bar",
+		data: {
+			labels: labels,
+			datasets: [{
+				label: "Number of Traffic Collisions",
+				data: values,
+				backgroundColor: "#29B6F6",
+				outerGlowWidth: 20,
+				outerGlowColor: "#0277BD",
+				innerGlowWidth: 5,
+				innerGlowColor: "#0277BD"
+			}]
+		},
+		options: {
+			title: {
+				text: 'Killed or Seriously Injured (KSI) Traffic Collisions (2007-2017) from Toronto Police Service Public Safety Data Portal',
+				display: true,
+				position: "bottom",
+				fontSize: 20,
+				fontStyle: "normal"
+			},
+			legend: {
+				display: false
+			 },
+			scales: {
+				xAxes: [{
+					barPercentage: 0.5
+				}]
+			}
+		}
+	});
+});
+
+</script>

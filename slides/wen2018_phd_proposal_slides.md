@@ -5,7 +5,6 @@ revealOptions:
   transition: 'slide'
   controls: true
   slideNumber: true
-  viewDistance: 3
 ---
 
 # Context-aware Geographic Information Systems for Real-time Security Event Forecasting
@@ -45,17 +44,25 @@ revealOptions:
 
 ### Frequent
 
-<!-- .slide: data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_cluster.html" -->
+<!-- .slide: data-state="frequent" data-background="black" data-background-transition="none" data-background-iframe-id="visual" data-background-iframe="./edit/visuals/ksi_cluster.html"  -->
 
 ---
 
 ### Non-random
 
-<!-- .slide: data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_heat.html" -->
+<!-- .slide: data-state="non-random" data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_heat.html" -->
+
+---
+
+### Situational
+
+<!-- .slide: data-state="situational" data-background="black" data-background-transition="none" data-background-iframe="./edit/visuals/ksi_bar.html" -->
 
 ---
 
 ## Security Events
+
+<!-- data-transition="slide" -->
 
 * Disrupt societal operation and daily life
 * Reduced quality of life
@@ -305,10 +312,14 @@ Given `a a b c c d`:
 
 # References
 
+<small>
 * World Health Organization. (2015). Global status report on road safety 2015: Monitoring health for the sustainable. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/road_safety_status/2015/en/
 * World Health Organization. (2018). World health statistics 2018: Monitoring health for the sdgs. Retrieved June 26, 2018, from http://www.who.int/gho/publications/world_health_statistics/2018/en/
+</small>
 
 ---
 
+<small>
 * World Health Organization, United Nations Office on Drugs and Crime, & United Nations Development Programme. (2014). Global status report on violence prevention 2014. Retrieved June 26, 2018, from http://www.who.int/violence_injury_prevention/publications/violence/en/
 * Dey, A. K. (2001). Understanding and using context. Personal and ubiquitous computing, 5(1), 4–7.
+</small>

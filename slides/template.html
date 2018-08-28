@@ -29,7 +29,8 @@
 			<img src="{{{base}}}/edit/logo.png" class="logo">
 		</div>
 
-        <script src="{{{base}}}/lib/js/head.min.js"></script>
+        <script src="{{{base}}}/edit/visuals/node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="{{{base}}}/lib/js/head.min.js"></script>
         <script src="{{{base}}}/js/reveal.js"></script>
 
         <script>
@@ -69,7 +70,7 @@
             var options = {{{revealOptionsStr}}};
             options = extend(defaultOptions, options, queryOptions);
         </script>
-
+		
         {{#scriptPaths}}
           <script src="{{{base}}}/{{{.}}}"></script>
         {{/scriptPaths}}
@@ -77,5 +78,6 @@
         <script>
             Reveal.initialize(options);
         </script>
+		<script src="{{{base}}}/edit/js/reload_iframes.js"></script>
     </body>
 </html>

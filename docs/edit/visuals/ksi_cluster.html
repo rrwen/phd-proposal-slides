@@ -4,28 +4,63 @@
 <title>KSI Cluster Map</title>
 
 <div id="visual"></div>
+
 <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css">
 <link rel="stylesheet" href="./node_modules/leaflet.markercluster/dist/MarkerCluster.css">
 <link rel="stylesheet" href="./node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css">
-<link rel="stylesheet" href="./visuals.css">
-
-<style>
-.leaflet-div-icon {
-    stroke-color:  yellow;
-    text-align:  center;
-}
-</style>
+<link rel="stylesheet" href="./css/visuals.css">
 
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/d3/dist/d3.min.js"></script>
 <script src="./node_modules/leaflet/dist/leaflet.js"></script>
 <script src="./node_modules/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script src="./js/helpers.js"></script>
 
 <script>
 
 $.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
-
+	var year = 2017;
+	
+	// (data_features) Get features and filter for year
+	var features = data.features.filter(function(f) {
+		return f.properties.YEAR == year;
+	});
+	
+	// (date_features) Sort features from oldest to newest
+	features = helpers.formatDate(features, "date");
+	features.sort(function(a, b) {
+		return -1 * (new Date(b.date) - new Date(a.date));
+	});
+	
+	// (date_rate) Get rate per month
+	var monthly = {};
+	var date;
+	for (var i in features) {
+		date = features[i].properties.DATE.substr(0, 7);
+		if (monthly[date] == undefined) {
+			monthly[date] = 0;
+		} else {
+			monthly[date] += 1;
+		}
+	}
+	var rate = 0, months = 0;
+	for (var m in monthly) {
+		rate += monthly[m];
+		months += 1;
+	}
+	rate = Math.round(rate / months);
+	
+	// (data_text) Data for text panel
+	var textData = [
+		{id: "date", x: "95%", y: "30%", text: "x", size: "2.25vw"},
+		{x: "95%", y: "45%", text: features.length + " Traffic Collisions", size: "2vw"},
+		{x: "95%", y: "55%", text: rate + " Collisions Per Day", size: "2vw"},
+		{x: "95%", y: "70%", text: "Killed or Seriously Injured (KSI) Traffic Collisions (" + year + ")", color: "gray"},
+		{x: "95%", y: "75%", text: "Data Source: Toronto Police Service Public Safety Data Portal", color: "gray"}
+	];
+	
 	// (map) Create leaflet map
-	var map = L.map('visual', {
+	var map = L.map("visual", {
 		zoomControl: false
 	});
 	map.setView([43.71, -79.35], 12);
@@ -49,8 +84,10 @@ $.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
 		iconSize: [10, 10]
 	});
 	
+	// (text) Create text panel
+	var mapText = helpers.mapText("body", textData);
+	
 	// (cluster_markers) Cluster markers based on feature lon and lats
-	var features = data.features;
 	var f, lon, lat, latlon, m;
 	for (let i in features) {
 		setTimeout(function(){
@@ -59,11 +96,11 @@ $.getJSON( "data/toronto_ksi_2007to2017.geojson", function(data) {
 			lat = f.geometry.coordinates[1];
 			latlon = new L.LatLng(lat, lon);
 			m = L.marker(latlon, {icon: icon});
+			d3.select("#date").text(f.properties.DATE.substr(0, 10));
 			markers.addLayer(m);
-		}, i * 100)
+		}, i * 10)
 	}
 	map.addLayer(markers);
 });
-
 
 </script>
